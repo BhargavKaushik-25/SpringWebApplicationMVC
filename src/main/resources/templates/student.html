@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- here th is representing thymeleaf and every time we have to use th only any other name will give error-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>STUDENT INFORMATION</title>
+</head>
+<body>
+<h1>STUDENT DATA</h1>
+<!--//ths will fetch the data from object format and display it -->
+<!--data is in object format so to print object in html means we have to use interpolation-->
+<h3 th:text="${student.rollNumber}"></h3>
+<h3 th:text="${student.name}"></h3>
+</body>
+</html>
